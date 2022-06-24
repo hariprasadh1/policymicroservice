@@ -14,34 +14,34 @@ namespace policymicroservice.Repository
             {
               policyid=1,
               memberid=1,
-              membername="AMIT",
+              membername="Hariprasadh",
               subscriptiondate="XXX",
               locationid=1,
-              locationname="ULTADANGA",
+              locationname="Madurai",
               hospitalid=2,
-              hospitalname="CMRI",
+              hospitalname="Velammal",
               topupFrequency=2
             },
             new memberpolicy()
             {
               policyid=1,
               memberid=2,
-              membername="RAM",
+              membername="Charulatha",
               subscriptiondate="XXX",
               locationid=1,
-              locationname="ULTADANGA",
+              locationname="Chennai",
               hospitalid=3,
-              hospitalname="NRS",
+              hospitalname="GH",
               topupFrequency=1
             },
             new memberpolicy()
             {
               policyid=2,
               memberid=3,
-              membername="SUBHAM",
+              membername="Anjali",
               subscriptiondate="XXX",
               locationid=2,
-              locationname="PARK STREET",
+              locationname="Kolkata",
               hospitalid=3,
               hospitalname="NRS",
               topupFrequency=0
@@ -50,24 +50,24 @@ namespace policymicroservice.Repository
             {
               policyid=1,
               memberid=4,
-              membername="ARGHYA",
+              membername="Aiswarya",
               subscriptiondate="XXX",
               locationid=3,
-              locationname="SEALDAH",
+              locationname="Coimabatore",
               hospitalid=1,
-              hospitalname="AMRI",
+              hospitalname="CGH",
               topupFrequency=2
             },
             new memberpolicy()
             {
               policyid=2,
               memberid=5,//given
-              membername="SUJOY",
+              membername="Hema",
               subscriptiondate="XXX",
               locationid=2,//
-              locationname="PARK STREET",
+              locationname="Banglore",
               hospitalid=1,//
-              hospitalname="AMRI"
+              hospitalname="AMIS"
             }
         };
         public List<int> gethosloc(int memberid)
